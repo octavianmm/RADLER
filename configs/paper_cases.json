@@ -1,0 +1,30 @@
+{
+  "widths": [0.25, 0.5, 0.75, 1.0],
+  "metric_columns": ["precision_025", "precision_050", "precision_075", "precision_100"],
+  "cases": [
+    {
+      "label": "AgriAdapt SSU-Net",
+      "short": "agriadapt_ssu",
+      "artifact_dir": "geok_squeeze_final",
+      "selector_file": "trained_classifier_geoksqueeze_100.sav"
+    },
+    {
+      "label": "AgriAdapt SU-Net",
+      "short": "agriadapt_su",
+      "artifact_dir": "geok_slim_final",
+      "selector_file": "trained_classifier_geokslim_10.sav"
+    },
+    {
+      "label": "Tobacco SSU-Net",
+      "short": "tobacco_ssu",
+      "artifact_dir": "tobacco_squeeze_final",
+      "selector_file": "trained_classifier_tobaccosqueeze_01.sav"
+    },
+    {
+      "label": "Tobacco SU-Net",
+      "short": "tobacco_su",
+      "artifact_dir": "tobacco_slim_final",
+      "selector_file": "trained_classifier_tobaccoslim_1.sav"
+    }
+  ]
+}

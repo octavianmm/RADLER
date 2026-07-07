@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+
+# Data and derived experiment artifacts are intentionally not versioned.
+data/*
+!data/README.md
+artifacts/*
+!artifacts/README.md
+results/*
+!results/README.md
+
+# Large/derived model and array artifacts.
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.sav
+*.joblib
+*.pickle
+*.pkl
+*.npz
+*.npy
+*.parquet
+
+# Generated figures.
+figs/

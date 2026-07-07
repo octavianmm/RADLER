@@ -1,0 +1,48 @@
+{
+  "brightness_only": ["mean_brightness"],
+  "spectral": [
+    "mean_brightness",
+    "std_brightness",
+    "max_brightness",
+    "min_brightness",
+    "no_bins",
+    "contrast_hue_hist",
+    "std_hue_arc",
+    "contrast",
+    "mean_saturation",
+    "std_saturation",
+    "max_saturation"
+  ],
+  "morphological": ["keypoints"],
+  "texture": [
+    "glcm_contrast_1",
+    "glcm_contrast_2",
+    "glcm_contrast_3",
+    "glcm_contrast_4",
+    "glcm_correlation_1",
+    "glcm_correlation_2",
+    "glcm_correlation_3",
+    "glcm_correlation_4",
+    "glcm_dissimilarity_1",
+    "glcm_dissimilarity_2",
+    "glcm_dissimilarity_3",
+    "glcm_dissimilarity_4",
+    "glcm_asm_1",
+    "glcm_asm_2",
+    "glcm_asm_3",
+    "glcm_asm_4",
+    "glcm_energy_1",
+    "glcm_energy_2",
+    "glcm_energy_3",
+    "glcm_energy_4",
+    "glcm_homogeneity_1",
+    "glcm_homogeneity_2",
+    "glcm_homogeneity_3",
+    "glcm_homogeneity_4"
+  ],
+  "optional_wavelet": [
+    "dwt_decomposition_1",
+    "dwt_decomposition_2",
+    "dwt_decomposition_3"
+  ]
+}
