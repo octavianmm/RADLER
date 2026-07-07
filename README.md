@@ -418,7 +418,3 @@ Use the final IEEE Access citation once the paper is published. Until then:
 ## License
 
 No open-source license is currently provided. The source code may be viewed, but reuse, modification, and redistribution require permission from the copyright holders.
-
-## Contact
-
-For reproducibility questions, contact Octavian M. Machidon at `octavian.machidon@fri.uni-lj.si` or open a GitHub Issue in this repository.
